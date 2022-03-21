@@ -21,15 +21,15 @@ except:
     pass
 
 try:
-    API_ID = os.environ["API_ID"]
+    API_ID = os.environ["18403498"]
 
-    API_HASH = os.environ["API_HASH"]
+    API_HASH = os.environ["2c0b01283b1b67f7087a92cc81cd91f8"]
 
-    TOKEN = os.environ["BOT_TOKEN"]
+    TOKEN = os.environ["5189783350:AAFvjgai8wPU3uVMEiNmEZeTMW3KOtHUzFw"]
 
-    CHANNEL_ID = os.environ["CHANNEL_ID"]
+    CHANNEL_ID = os.environ["-1001308022020"]
 
-    ADMIN_GROUP = int(os.environ["ADMIN_GROUP_ID"])
+    ADMIN_GROUP = int(os.environ["5269789045"])
 
     DATABASE_URL = os.environ["DATABASE_URL"]
 except Exception as e:
